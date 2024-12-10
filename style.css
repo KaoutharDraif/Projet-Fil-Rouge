@@ -41,7 +41,8 @@ body {
 }
 
 .nav-btn a {
-    text-decoration: none; /* Remove underline from link */
+    text-decoration: none;
+    /* Remove underline from link */
     color: white;
 }
 
@@ -135,28 +136,44 @@ ul {
     top: 140%;
 }
 
-.contact-display{
-    display: flex;
-    justify-content: space-between;
-}
-
-.input-group{
+.input-group {
     display: flex;
     gap: 10px;
     background-color: #252525;
 
 }
-.blog-section {
+
+
+
+.blog-row {
     display: flex;
     justify-content: space-around;
-    /* padding: 180px; */
+    margin-bottom: 40px;
+    /* space between rows */
 }
 
-.blog-container{
+.blog-container {
     display: block;
+    border-color: #72B626;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
 }
 
-.blog-img{
+.blog-img {
     width: 350px;
     height: 300;
+}
+
+.contact-display {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    /* some gap to separate form and info */
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
 }

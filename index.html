@@ -16,7 +16,7 @@
     <nav class="navBar">
         <a class="nav" href="#home_section">Home</a>
         <a class="nav" href="#about_section">About</a>
-        <a class="nav" href="#project_section_">Project</a>
+        <a class="nav" href="#project_section">Project</a>
         <a class="nav" href="#skills_section">Skills</a>
         <a class="nav" href="#contact_section">Contact</a>
         <button class="nav-btn"><a href="#contact_section">Let's Talk</a></button>
@@ -67,118 +67,127 @@
             <img src="Developer activity-amico.png" alt="about-img" class="about-img">
         </div>
         <!-- Project page section -->
-        <h2 class="title">My Projects</h2>
-        <div class="Projects">
-            <img src="Yummy App.png" alt="YummyApp" class="project-img" onclick="PopupYummyApp()" />
-            <img src="To Do List App.png" alt="To-Do-List-Web-page" class="project-img" onclick="PopupTodolist()" />
-            <img src="Personal-Portfolio.png" alt="Personal-Portfolio" class="project-img"
-                onclick="PopupPersoPortfolio()" />
-            <img src="Note App.png" alt="Note-taking-app" class="project-img" onclick="PopupNoteapp()" />
-            <img src="Weather-app.png" alt="WeatherTracker" class="project-img" onclick="PopupWeatherTracker()" />
-        </div>
+        <div id="project_section">
+            <h2 class="title">My Projects</h2>
+            <div class="Projects">
+                <img src="Yummy App.png" alt="YummyApp" class="project-img" onclick="PopupYummyApp()" />
+                <img src="To Do List App.png" alt="To-Do-List-Web-page" class="project-img" onclick="PopupTodolist()" />
+                <img src="Personal-Portfolio.png" alt="Personal-Portfolio" class="project-img"
+                    onclick="PopupPersoPortfolio()" />
+                <img src="Note App.png" alt="Note-taking-app" class="project-img" onclick="PopupNoteapp()" />
+                <img src="Weather-app.png" alt="WeatherTracker" class="project-img" onclick="PopupWeatherTracker()" />
+            </div>
 
-        <div id="ProjectContainer">
-            <!-- First project -->
-            <div class="Pop-up" id="PopupYummyApp">
-                <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupYummyApp()" />
-                <h1>YummyApp</h1>
-                <p>
-                    Project : Website that allow users to add, delete, and view notes.
-                    <br>
-                    Langages : HTML, CSS, Javascript
-                    <br>
-                    Preview : <a href="https://kaouthardraif.github.io/YummyApp/"><i class="fa-solid fa-link"></i></a>
-                    <br>
-                </p>
-                <img src="Yummy App.png" alt="YummyApppic" class="popup_img"/>
-            </div>
-            <!-- Second project -->
-            <div class="Pop-up" id="PopupTodolist">
-                <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupTodolist()" />
-                <h1>To Do List WebPage</h1>
-                <p>
-                    Project : Website that allow users to add, delete, and view tasks.
-                    <br>
-                    Langages : HTML, CSS, Javascript
-                    <br>
-                    Preview : <a href="https://kaouthardraif.github.io/To-Do-List-Web-Page/"><i
-                            class="fa-solid fa-link"></i></a>
-                    <br>
-                </p>
-                <img src="To Do List App.png" alt="ToDoList" class="popup_img"/>
-            </div>
-            <!-- Third project -->
-            <div class="Pop-up" id="PopupPersoPortfolio">
-                <img src="close image.png" alt="Close Popup" class="close-button"
-                    onclick="closePopupPersoPortfolio()" />
-                <h1>Personal-Portfolio</h1>
-                <p>
-                    Project : Personal portfolio, demonstrating the skills acquired throughout the training.
-                    <br>
-                    Langages : HTML, CSS, Javascript
-                    <br>
-                    Preview : <a href="https://kaouthardraif.github.io/Personal-Portfolio/"><i
-                            class="fa-solid fa-link"></i></a>
-                    <br>
-                </p>
-                <img src="Personal-Portfolio.png" alt="Personal-Portfolio" class="popup_img"/>
-            </div>
-            <!-- Fourth project -->
-            <div class="Pop-up" id="PopupNoteapp">
-                <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupNoteapp()" />
-                <h1>Note taking WebPage</h1>
-                <p>
-                    Project : Website that allow users to add, delete, and view notes.
-                    <br>
-                    Langages : HTML, CSS, Javascript
-                    <br>
-                    Preview : <a href="https://kaouthardraif.github.io/note-taking-page/"><i
-                            class="fa-solid fa-link"></i></a>
-                    <br>
-                </p>
-                <img src="Note App.png" alt="NoteApppic" class="popup_img"/>
-            </div>
-            <!-- Fifth project -->
-            <div class="Pop-up" id="PopupWeatherTracker">
-                <img src="close image.png" alt="Close Popup" class="close-button"
-                    onclick="closePopupWeatherTracker()" />
-                <h1>WeatherTracker</h1>
-                <p>
-                    Project : Website that allow users to add, delete, and view notes.
-                    <br>
-                    Langages : HTML, CSS, Javascript
-                    <br>
-                    Preview : <a href="https://kaouthardraif.github.io/WeatherTracker/"><i
-                            class="fa-solid fa-link"></i></a>
-                    <br>
-                </p>
-                <img src="Weather-app.png" alt="WeatherTrackerpic" class="popup_img"/>
+            <div id="ProjectContainer">
+                <!-- First project -->
+                <div class="Pop-up" id="PopupYummyApp">
+                    <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupYummyApp()" />
+                    <h1>YummyApp</h1>
+                    <p>
+                        Project : Website that allow users to add, delete, and view notes.
+                        <br>
+                        Langages : HTML, CSS, Javascript
+                        <br>
+                        Preview : <a href="https://kaouthardraif.github.io/YummyApp/"><i
+                                class="fa-solid fa-link"></i></a>
+                        <br>
+                    </p>
+                    <img src="Yummy App.png" alt="YummyApppic" class="popup_img" />
+                </div>
+                <!-- Second project -->
+                <div class="Pop-up" id="PopupTodolist">
+                    <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupTodolist()" />
+                    <h1>To Do List WebPage</h1>
+                    <p>
+                        Project : Website that allow users to add, delete, and view tasks.
+                        <br>
+                        Langages : HTML, CSS, Javascript
+                        <br>
+                        Preview : <a href="https://kaouthardraif.github.io/To-Do-List-Web-Page/"><i
+                                class="fa-solid fa-link"></i></a>
+                        <br>
+                    </p>
+                    <img src="To Do List App.png" alt="ToDoList" class="popup_img" />
+                </div>
+                <!-- Third project -->
+                <div class="Pop-up" id="PopupPersoPortfolio">
+                    <img src="close image.png" alt="Close Popup" class="close-button"
+                        onclick="closePopupPersoPortfolio()" />
+                    <h1>Personal-Portfolio</h1>
+                    <p>
+                        Project : Personal portfolio, demonstrating the skills acquired throughout the training.
+                        <br>
+                        Langages : HTML, CSS, Javascript
+                        <br>
+                        Preview : <a href="https://kaouthardraif.github.io/Personal-Portfolio/"><i
+                                class="fa-solid fa-link"></i></a>
+                        <br>
+                    </p>
+                    <img src="Personal-Portfolio.png" alt="Personal-Portfolio" class="popup_img" />
+                </div>
+                <!-- Fourth project -->
+                <div class="Pop-up" id="PopupNoteapp">
+                    <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupNoteapp()" />
+                    <h1>Note taking WebPage</h1>
+                    <p>
+                        Project : Website that allow users to add, delete, and view notes.
+                        <br>
+                        Langages : HTML, CSS, Javascript
+                        <br>
+                        Preview : <a href="https://kaouthardraif.github.io/note-taking-page/"><i
+                                class="fa-solid fa-link"></i></a>
+                        <br>
+                    </p>
+                    <img src="Note App.png" alt="NoteApppic" class="popup_img" />
+                </div>
+                <!-- Fifth project -->
+                <div class="Pop-up" id="PopupWeatherTracker">
+                    <img src="close image.png" alt="Close Popup" class="close-button"
+                        onclick="closePopupWeatherTracker()" />
+                    <h1>WeatherTracker</h1>
+                    <p>
+                        Project : Website that allow users to add, delete, and view notes.
+                        <br>
+                        Langages : HTML, CSS, Javascript
+                        <br>
+                        Preview : <a href="https://kaouthardraif.github.io/WeatherTracker/"><i
+                                class="fa-solid fa-link"></i></a>
+                        <br>
+                    </p>
+                    <img src="Weather-app.png" alt="WeatherTrackerpic" class="popup_img" />
+                </div>
             </div>
         </div>
-
 
         <!-- Skills Section -->
         <div id="skills_section" class="section">
             <h2 class="title">MY SKILLS</h2>
-            <div>
-                <p>HTML</p>
-                <p>85%</p>
-            </div>
-            <div>
-                <p>CSS</p>
-                <p>75%</p>
-            </div>
-            <div>
-                <p>Javascript</p>
-                <p>50%</p>
-            </div>
-            <div>
-                <p>Figma</p>
-                <p>85%</p>
-            </div>
-            <div>
-                <p>Wordpress</p>
-                <p>85%</p>
+            <div class="display-skills">
+                <section class="skills-container">
+                    <img src="HTML logo.png" alt="html-img" class="skills-img">
+                    <p>HTML</p>
+                    <p>85%</p>
+                </section>
+                <section class="skills-container">
+                    <img src="css logo.png" alt="css-img" class="skills-img">
+                    <p>CSS</p>
+                    <p>75%</p>
+                </section>
+                <section class="skills-container">
+                    <img src="JS Logo.png" alt="js-img" class="skills-img">
+                    <p>Javascript</p>
+                    <p>50%</p>
+                </section>
+                <section class="skills-container">
+                    <img src="Figma logo.png" alt="figma-img" class="skills-img">
+                    <p>Figma</p>
+                    <p>85%</p>
+                </section>
+                <section class="skills-container">
+                    <img src="Wordpress logo.png" alt="wordpress-img" class="skills-img">
+                    <p>Wordpress</p>
+                    <p>85%</p>
+                </section>
             </div>
         </div>
         <!-- Blog section -->

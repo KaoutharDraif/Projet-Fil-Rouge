@@ -179,6 +179,28 @@ ul {
     height: 190px;
 }
 
+.display-skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.skills-container{
+    display: block;
+    padding: 5px;
+    width: 290px;
+    height: 300px;
+    text-align: center;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+.skills-img{
+    width: 100px;
+    height: 100px;
+}
+
 .input-group {
     display: flex;
     gap: 10px;

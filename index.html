@@ -68,11 +68,84 @@
         <div class="Projects">
             <img src="Yummy App.png" alt="YummyApp" class="project-img" onclick="PopupYummyApp()" />
             <img src="To Do List App.png" alt="To-Do-List-Web-page" class="project-img" onclick="PopupTodolist()" />
-            <img src="Personal-Portfolio.png" alt="Personal-Portfolio" class="project-img" onclick="PopupPersoPortfolio()" />
+            <img src="Personal-Portfolio.png" alt="Personal-Portfolio" class="project-img"
+                onclick="PopupPersoPortfolio()" />
             <img src="Note App.png" alt="Note-taking-app" class="project-img" onclick="PopupNoteapp()" />
             <img src="Weather-app.png" alt="WeatherTracker" class="project-img" onclick="PopupWeatherTracker()" />
-          </div>
+        </div>
 
+        <div id="ProjectContainer">
+            <!-- First project -->
+            <div class="Pop-up" id="PopupYummyApp">
+                <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupYummyApp()" />
+                <h1>YummyApp</h1>
+                <p>
+                    Project : Website that allow users to add, delete, and view notes.
+                    <br>
+                    Langages : HTML, CSS, Javascript
+                    <br>
+                    Preview : <a href="https://kaouthardraif.github.io/YummyApp/"><i class="fa-solid fa-link"></i></a>
+                    <br>
+                </p>
+                <img src="Yummy App.png" alt="YummyApppic" />
+            </div>
+            <!-- Second project -->
+            <div class="Pop-up" id="PopupTodolist">
+                <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupTodolist()" />
+                <h1>To Do List WebPage</h1>
+                <p>
+                    Project : Website that allow users to add, delete, and view tasks.
+                    <br>
+                    Langages : HTML, CSS, Javascript
+                    <br>
+                    Preview : <a href="https://kaouthardraif.github.io/To-Do-List-Web-Page/"><i class="fa-solid fa-link"></i></a>
+                    <br>
+                </p>
+                <img src="To Do List App.png" alt="ToDoList" />
+            </div>
+            <!-- Third project -->
+            <div class="Pop-up" id="PopupPersoPortfolio">
+                <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupPersoPortfolio()" />
+                <h1>Personal-Portfolio</h1>
+                <p>
+                    Project : Personal portfolio, demonstrating the skills acquired throughout the training. 
+                    <br>
+                    Langages : HTML, CSS, Javascript
+                    <br>
+                    Preview : <a href="https://kaouthardraif.github.io/Personal-Portfolio/"><i class="fa-solid fa-link"></i></a>
+                    <br>
+                </p>
+                <img src="Personal-Portfolio.png" alt="Personal-Portfolio" />
+            </div>
+            <!-- Fourth project -->
+            <div class="Pop-up" id="PopupNoteapp">
+                <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupNoteapp()" />
+                <h1>YummyApp</h1>
+                <p>
+                    Project : Website that allow users to add, delete, and view notes.
+                    <br>
+                    Langages : HTML, CSS, Javascript
+                    <br>
+                    Preview : <a href="https://kaouthardraif.github.io/note-taking-page/"><i class="fa-solid fa-link"></i></a>
+                    <br>
+                </p>
+                <img src="Note App.png" alt="NoteApppic" />
+            </div>
+            <!-- Fifth project -->
+            <div class="Pop-up" id="PopupWeatherTracker">
+                <img src="close image.png" alt="Close Popup" class="close-button" onclick="closePopupWeatherTracker()" />
+                <h1>YummyApp</h1>
+                <p>
+                    Project : Website that allow users to add, delete, and view notes.
+                    <br>
+                    Langages : HTML, CSS, Javascript
+                    <br>
+                    Preview : <a href="https://kaouthardraif.github.io/WeatherTracker/"><i class="fa-solid fa-link"></i></a>
+                    <br>
+                </p>
+                <img src="Weather-app.png" alt="WeatherTrackerpic" />
+            </div>
+        </div>
 
 
         <!-- Skills Section -->
@@ -140,7 +213,8 @@
                 <div class="contact-display">
                     <section>
                         <h3>Have a question?</h3>
-                        <p>I'd love to hear from you! Whether it's about a project or networking, feel free to drop a
+                        <p>I'd love to hear from you! Whether it's about a project or networking, feel free to drop
+                            a
                             message.
                         </p>
                         <form action="submit">
@@ -176,5 +250,6 @@
             </div>
 
 </body>
+<script src="index.js"></script>
 
 </html>

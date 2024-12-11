@@ -145,6 +145,10 @@ ul {
     display: block;
 }
 
+.close-button{
+    
+}
+
 .input-group {
     display: flex;
     gap: 10px;
